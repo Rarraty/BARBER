@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h1 class="text-center text-gold" style="font-family: 'Your Font Name', cursive;">Наши работы</h1>
+  <title>Наши работы</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 0px solid gold;
+    }
+  </style>
+
+  <div class="gallery">
+    <img src="https://pro-dachnikov.com/uploads/posts/2021-10/1633500736_29-p-muzhskaya-strizhka-modelnaya-korotkaya-s-p-33.jpg" alt="Photo 1">
+    <img src="https://i.pinimg.com/originals/14/a9/cf/14a9cfc17082d2cb9b3492ac83a46557.jpg?size=571x700&quality=96&sign=e19c10fe188f11e53fdd2637dd8a9114&c_uniq_tag=nuw2c8oSwfh8Q1rLakDIJjjS9UuvCTO_0Qe99ZLTxac&type=none" alt="Photo 2">
+    <img src="https://pro-dachnikov.com/uploads/posts/2023-01/1674102150_pro-dachnikov-com-p-strizhka-said-part-muzhskaya-foto-41.jpg" alt="Photo 3">
+  </div>
+
+  <hr style="border: none; height: 3px; background-color: #D4AF37; background-image: linear-gradient(to right, transparent 50%, #D4AF37 50%, #D4AF37 100%); margin: 30px 0;">
+
+  <div class="text-center">
+    <a href="/" class="btn btn-lg btn-danger text-white me-2">Записаться через Яндекс</a>
+    <img src="https://avatars.mds.yandex.net/get-yablogs/114306/file_1618417950902/orig" alt="Yandex Logo" width="75" height="45" class="rounded">
+  </div>
+
+
+<p class="text-center text-gold" style="font-family: 'Your Font Name', cursive; font-size: 16px;">*здесь вы можете записаться на стрижку сами через Яндекс, выбрав удобную дату*</p>
+
+<hr style="border: none; height: 3px; background-color: #D4AF37; background-image: linear-gradient(to right, transparent 50%, #D4AF37 50%, #D4AF37 100%); margin: 30px 0;">
+
+
+
+{% endblock %}
