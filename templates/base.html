@@ -30,6 +30,10 @@
       background-position: center;
       filter: blur(5px);
       z-index: -1;
+      background-attachment: fixed; /* Сделать фон статичным */
+    }
+    .less-visible {
+      opacity: 0.6; /* Сделать текст более прозрачным */
     }
   </style>
 </head>
@@ -87,8 +91,7 @@
         <img src="https://sun1-18.userapi.com/s/v1/ig2/A9bQ5ERxqIlxZ4NUsDsukzhJK-mNNpt0brm1BtKNRRTxcHAl0z7iYts5yQKjr0MoK0TQtnXrVxvBe2IQu4msKSND.jpg?size=400x400&quality=95&crop=251,215,2058,2058&ava=1?size=400x400&quality=95&crop=251,215,2058,2058&ava=1?size=1628x2160&quality=95&sign=3b980d927ce97e4e1a8c52ac45796601&type=album" alt="Давид" class="card-img-top rounded" style="width: 50px; height: 50px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title text-gold">Давид</h5>
-          <p class="card-text">Барбер</p>
-          
+          <p class="card-text less-visible">Барбер</p> <!-- Сделать текст более прозрачным -->
         </div>
       </div>
     </div>
@@ -98,8 +101,7 @@
         <img src="/static/Diana.jpeg" alt="Диана" class="card-img-top rounded" style="width: 50px; height: 50px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title text-gold">Диана</h5>
-          <p class="card-text">Старший Мастер</p>
-          
+          <p class="card-text less-visible">Старший Мастер</p> <!-- Сделать текст более прозрачным -->
         </div>
       </div>
     </div>
@@ -109,8 +111,7 @@
         <img src="https://sun9-64.userapi.com/impg/0g3uzkfyMh4LJFzK_15jylWjx98oxcqX5957hA/lSfD4_a-e08.jpg?size=2316x2316&quality=95&sign=7a5e1f11cbb83215da5569b37f4d6928&type=album" alt="Катя" class="card-img-top rounded" style="width: 50px; height: 50px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title text-gold">Екатерина</h5>
-          <p class="card-text">Администратор</p>
-          
+          <p class="card-text less-visible">Администратор</p> <!-- Сделать текст более прозрачным -->
         </div>
       </div>
     </div>
